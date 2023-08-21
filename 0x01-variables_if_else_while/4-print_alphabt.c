@@ -1,18 +1,24 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - print positive or negative
+ * main - print_alphabt.c
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
-for (n = 97; n <= 122;)
-continue;
+int i;
 
-for (; n == 101 || n == 113; n++)
+for (i = 97; i <= 122; i++)
 
-putchar('\n');
+	if (i == 101 || i == 113)
+	{
+		continue;
+	}
+ 
+putchar(i);
+
 return (0);
 }
