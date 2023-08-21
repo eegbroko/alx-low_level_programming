@@ -17,7 +17,6 @@ for (i = 97; i <= 122; i++)
 	{
 		continue;
 	}
- 
 putchar(i);
 
 return (0);
